@@ -20,7 +20,7 @@
                                
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="{{route('details',$product->id)}}">{{$product->pro_name }}</a>
+                                <a class="h6 text-decoration-none " href="{{route('details',$product->id)}}">{{$product->pro_name }}</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>{{$product->price }}</h5><h6 class="text-muted ml-2"></h6>
                                 </div>

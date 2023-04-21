@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Shop')
+@section('title','REFUND')
 @section('content')
 <!-- Products Start -->
 <div class="container-fluid pt-5 pb-3">

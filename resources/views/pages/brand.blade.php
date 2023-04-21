@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Shop')
+@section('title','BRAND')
 @section('content')
 <!-- Products Start -->
 <div class="container-fluid pt-5 pb-3">
@@ -17,7 +17,7 @@
                             <img class="img-fluid" src="{{asset('/images/'.$brandetail->image)}}" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <a href=""><h6>{{$brandetail->brand_name}}</h6></a>
+                            <a href=""><h4>{{$brandetail->brand_name}}</h4></a>
                         </div>
                     </div>
                 </a>

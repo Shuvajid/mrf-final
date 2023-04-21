@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Online Shop')
+@section('title','MRF TRADING COMPANY')
 @section('content')
 
     <!-- Carousel Start -->
