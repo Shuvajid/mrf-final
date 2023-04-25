@@ -15,7 +15,7 @@
                             <div class="text-center py-4">
                                 <a class="h6 text-decoration-none " href="{{route('details',$pro->id)}}">{{$pro->pro_name }}</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
-                                    <h5>{{$pro->price }}</h5><h6 class="text-muted ml-2"></h6>
+                                    <h5>{{$pro->price }} BDT</h5><h6 class="text-muted ml-2"></h6>
                                 </div>
                                <br>
                                <a class="h6 text-decoration-none text-truncate" href="{{route('details',$pro->id)}}">More Details...</a>

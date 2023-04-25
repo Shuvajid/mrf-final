@@ -31,37 +31,26 @@
 </head>
 
 <body>
-    <!-- Topbar Start -->
-    <div class="container-fluid">
+ 
+
+   <!-- Topbar Start -->
+   <div class="container-fluid searchbg">
        
-        <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
-            <div class="col-lg-4">
-                <a href="{{route('viewpage')}}" class="text-decoration-none">
-                <img class="img-fluid logoss" src="{{asset('/')}}assets/img/logo.png" alt="">
-                <span class="logodel">MRF Trading Company</span>
-                </a>
-            </div>
-            <div class="col-lg-4 col-6 text-left">
-                <form action="{{url('search')}}" method="GET">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for products" name="products">
-                        <div class="input-group-append">
-                            <button type="submit" class="input-group-text bg-transparent text-primary">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-lg-4 col-6 text-right">
-                <p class="m-0">Customer Service</p>
-                <h5 class="m-0">02333356324-5</h5>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
-
-
+       <div class="row bg-light py-3 px-xl-5 d-none d-lg-flex">
+           <div class="col-lg-6">
+               <a href="{{route('viewpage')}}" class="text-decoration-none">
+               <img class="img-fluid logoss " src="{{asset('/')}}assets/img/logo.png" alt="">
+               <span class="logodel ">MRF Trading Company</span>
+               </a>
+           </div>
+         
+           <div class="col-lg-6 col-6 text-right flex-r">
+               <p class="m-0">Customer Service</p>
+               <h5 class="m-0">02333356324-5</h5>
+           </div>
+       </div>
+   </div>
+   <!-- Topbar End -->
     <!-- Navbar Start -->
     <div class="container-fluid bg-dark mb-30">
         <div class="row px-xl-5">
@@ -80,9 +69,9 @@
             </div>
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
-                    <a href="" class="text-decoration-none d-block d-lg-none">
-                        <img class="img-fluid logoss" src="{{asset('/')}}assets/img/logo.png" alt="">
-                        <span class="logodel text-light">MRF Trading Company</span>
+                    <a href="{{route('viewpage')}}" class="text-decoration-none d-block d-lg-none">
+                        <img class="img-fluid logoss " src="{{asset('/')}}assets/img/logo.png" alt="">
+                        <span class="logodel text-light ">MRF Trading Company</span>
                     </a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
@@ -120,7 +109,27 @@
     </div>
     <!-- Navbar End -->
 
-
+   <!-- Topbar Start -->
+   <div class="container-fluid">
+       
+       <div class="row      ">
+           
+           <div class="col-md-6 mb-3 mx-auto text-left">
+           <form action="{{url('search')}}" method="GET">
+                   <div class="input-group">
+                       <input type="text" class="form-control" placeholder="Search for products" name="products">
+                       <div class="input-group-append">
+                           <button type="submit" class="input-group-text bg-transparent text-primary">
+                               <i class="fa fa-search"></i>
+                           </button>
+                       </div>
+                   </div>
+               </form>
+           </div>
+         
+       </div>
+   </div>
+   <!-- Topbar End -->
 
 
 
